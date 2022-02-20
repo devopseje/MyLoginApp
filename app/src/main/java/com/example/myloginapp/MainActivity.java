@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this,"LOGIN SUCCESSFUL WELL DONE",Toast.LENGTH_SHORT).show();
                 }else
                     //incorrect
-                    Toast.makeText(MainActivity.this,"LOGIN FAILED !!!",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this,"LOGIN FAILED !!! Try Again",Toast.LENGTH_SHORT).show();
             }
         });
 
