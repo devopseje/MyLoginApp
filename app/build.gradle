@@ -47,12 +47,3 @@ dependencies {
     implementation "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}"
 }
 
-jacocoTestReport {
-    reports {
-        xml.enabled true
-    }
-}
-test.finalizedBy jacocoTestReport
-tasks.named('sonarqube').configure {
-    dependsOn test
-}
